@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transaction_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="445dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="8dp"
+        android:text="Let eliminated Thanos"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="25dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="132dp"
+        android:text="im here"
+        android:textSize="50sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <ImageView
+        android:id="@+id/goku"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:src="@drawable/goku"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
+        android:id="@+id/imTonardo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tornado"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="255dp" />
+
+
+    <ImageView
+        android:id="@+id/imStrike"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:src="@drawable/kamekameha"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/enemy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="576dp"
+        android:src="@drawable/thanos"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="155dp" />
+
+</android.support.constraint.ConstraintLayout>
