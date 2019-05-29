@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/duongvien_goctron"
+    tools:context=".MenuGameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logomini"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imBtnBauCua"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/baucua"
+            />
+
+        <ImageButton
+            android:id="@+id/imBtnBai3la"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bala"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imBtnXingau"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dice"/>
+
+        <ImageButton
+            android:id="@+id/imBtnChaiBia"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/quaychaibia"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/makeby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mini Game Make by Khang-Liêm"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</LinearLayout>
